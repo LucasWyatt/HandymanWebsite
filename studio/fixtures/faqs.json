@@ -1,0 +1,209 @@
+[
+  {
+    "_id": "faq-service-areas",
+    "_type": "faq",
+    "question": "What areas do you serve?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "We primarily serve East Cincinnati neighborhoods including Hyde Park, Indian Hill, Terrace Park, Mount Lookout, Oakley, Columbia-Tusculum, Mariemont, Madeira, Mount Adams, and Walnut Hills. We do not currently serve West Cincinnati neighborhoods."
+          }
+        ]
+      }
+    ],
+    "category": "service-area",
+    "tags": ["service area", "locations", "neighborhoods"],
+    "priority": "high",
+    "showOnHomepage": true,
+    "sortOrder": 1,
+    "published": true
+  },
+  {
+    "_id": "faq-warranty",
+    "_type": "faq",
+    "question": "Do you provide a warranty on your work?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Yes, we provide a 1-year labor warranty on all completed work. This covers any issues related to our workmanship, though it doesn't cover normal wear and tear or damage from external factors."
+          }
+        ]
+      }
+    ],
+    "category": "insurance-warranty",
+    "tags": ["warranty", "guarantee", "labor"],
+    "priority": "high",
+    "showOnHomepage": true,
+    "sortOrder": 3,
+    "published": true
+  },
+  {
+    "_id": "faq-scheduling",
+    "_type": "faq",
+    "question": "How far in advance do I need to schedule?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "For our primary service areas (Hyde Park, Indian Hill, Terrace Park), we typically offer same-day or next-day availability. For other neighborhoods, we usually schedule within 2-3 days. Emergency repairs can often be accommodated more quickly."
+          }
+        ]
+      }
+    ],
+    "category": "scheduling",
+    "tags": ["scheduling", "availability", "emergency"],
+    "priority": "high",
+    "showOnHomepage": true,
+    "sortOrder": 4,
+    "published": true
+  },
+  {
+    "_id": "faq-materials",
+    "_type": "faq",
+    "question": "Do you provide materials or do I need to purchase them?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "We can handle material procurement for most projects, ensuring you get quality materials at fair prices. Alternatively, you're welcome to purchase materials yourself. We'll discuss the best approach during your estimate based on your preferences and timeline."
+          }
+        ]
+      }
+    ],
+    "category": "materials-permits",
+    "tags": ["materials", "supplies", "procurement"],
+    "priority": "medium",
+    "showOnHomepage": true,
+    "sortOrder": 5,
+    "published": true
+  },
+  {
+    "_id": "faq-payment-methods",
+    "_type": "faq",
+    "question": "What payment methods do you accept?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "We accept cash, check, and all major credit cards. For larger projects, we can also arrange ACH bank transfers. Payment is typically due upon completion, though we can discuss payment arrangements for extensive projects."
+          }
+        ]
+      }
+    ],
+    "category": "pricing",
+    "tags": ["payment", "credit cards", "cash"],
+    "priority": "medium",
+    "showOnHomepage": false,
+    "sortOrder": 6,
+    "published": true
+  },
+  {
+    "_id": "faq-insurance",
+    "_type": "faq",
+    "question": "Are you insured and licensed?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Yes, we carry $1M/$2M general liability insurance and are registered as contractors in Cincinnati. We can provide certificates of insurance upon request and work with licensed partners for specialized work requiring permits."
+          }
+        ]
+      }
+    ],
+    "category": "insurance-warranty",
+    "tags": ["insurance", "licensed", "liability"],
+    "priority": "medium",
+    "showOnHomepage": false,
+    "sortOrder": 7,
+    "published": true
+  },
+  {
+    "_id": "faq-permits",
+    "_type": "faq",
+    "question": "Do you handle permits for larger projects?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "For projects requiring permits, we work with licensed contractors who handle the permit process. We focus on repairs and improvements that typically don't require permits, but we'll guide you through the process when permits are needed."
+          }
+        ]
+      }
+    ],
+    "category": "materials-permits",
+    "tags": ["permits", "licensing", "contractors"],
+    "priority": "medium",
+    "showOnHomepage": false,
+    "sortOrder": 8,
+    "published": true
+  },
+  {
+    "_id": "faq-estimate-cost",
+    "_type": "faq",
+    "question": "Is there a charge for estimates?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "No, we provide free estimates for all potential projects. We prefer to see the work in person to give you the most accurate quote, but we can also provide rough estimates over the phone for simple repairs."
+          }
+        ]
+      }
+    ],
+    "category": "pricing",
+    "tags": ["estimate", "quote", "free"],
+    "priority": "medium",
+    "showOnHomepage": false,
+    "sortOrder": 9,
+    "published": true
+  },
+  {
+    "_id": "faq-cleanup",
+    "_type": "faq",
+    "question": "Do you clean up after completing work?",
+    "answer": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Absolutely. We believe in leaving your home cleaner than we found it. We use drop cloths to protect surfaces, clean up all debris, and vacuum or sweep as needed. A tidy workspace is part of our professional service."
+          }
+        ]
+      }
+    ],
+    "category": "general",
+    "tags": ["cleanup", "protection", "tidy"],
+    "priority": "low",
+    "showOnHomepage": false,
+    "sortOrder": 10,
+    "published": true
+  }
+]

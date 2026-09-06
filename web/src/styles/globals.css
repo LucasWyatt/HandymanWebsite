@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --hometown-handyman-blue: #0369a1;
+  --hometown-handyman-blue-light: #0ea5e9;
+  --hometown-handyman-blue-dark: #0c4a6e;
+  --hometown-handyman-neutral: #737373;
+  --hometown-handyman-neutral-dark: #404040;
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-y: scroll; /* Always show vertical scrollbar to prevent layout shift */
+  }
+
+  body {
+    @apply bg-white text-neutral-800 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold text-neutral-900;
+  }
+
+  h1 {
+    @apply text-4xl lg:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl lg:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl lg:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl lg:text-2xl;
+  }
+
+  p {
+    @apply text-neutral-700 leading-relaxed;
+  }
+
+  a {
+    @apply text-cta-600 hover:text-cta-700 transition-colors;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-cta-600 text-white hover:bg-cta-700 hover:text-white active:text-white focus:ring-cta-500;
+  }
+
+  .btn-secondary {
+    @apply btn bg-neutral-100 text-neutral-900 hover:bg-neutral-200 focus:ring-neutral-500;
+  }
+
+  .btn-outline {
+    @apply btn border border-neutral-300 text-neutral-700 hover:bg-neutral-50 focus:ring-neutral-500;
+  }
+
+  .container-site {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .phone-link {
+    @apply inline-flex items-center space-x-2 text-cta-600 hover:text-cta-700 font-medium transition-colors;
+  }
+}

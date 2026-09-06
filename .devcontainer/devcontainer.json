@@ -1,0 +1,50 @@
+{
+  "name": "Hometown Handyman Development",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/terraform:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-eslint",
+        "hashicorp.terraform",
+        "ms-vscode.vscode-typescript-next",
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense",
+        "ms-vscode.vscode-json"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "typescript.preferences.importModuleSpecifier": "relative",
+        "emmet.includeLanguages": {
+          "javascript": "javascriptreact",
+          "typescript": "typescriptreact"
+        }
+      }
+    }
+  },
+  "forwardPorts": [3000, 3333],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js Web App",
+      "onAutoForward": "notify"
+    },
+    "3333": {
+      "label": "Sanity Studio",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "pnpm install",
+  "remoteUser": "node"
+}
